@@ -30,7 +30,7 @@ public class FirefoxTest {
 	  sauceOptions.put("name", "<your test name>");
 	  browserOptions.setCapability("sauce:options", sauceOptions);
 
-	  URL url = new URL("https://oauth-ashlyn.lanaville-f3b54:97383582-6151-4e51-abf5-45d016db4d77@ondemand.us-west-1.saucelabs.com:443/wd/hub");
+	  URL url = new URL("https://{username}:{accesskey}@ondemand.us-west-1.saucelabs.com:443/wd/hub");
 	  driver = new RemoteWebDriver(url, browserOptions);
   }
 
