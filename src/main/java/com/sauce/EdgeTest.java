@@ -14,7 +14,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 
-public class FirefoxTest {
+public class EdgeTest {
 	RemoteWebDriver driver;
   @Test
   public void Go_to_google() {
